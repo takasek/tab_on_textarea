@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "tab_on_textarea",
+  "version": "0.1.0",
+  "description": "insert tab when press tab key on any textareas.",
+  "homepage_url": "https://github.com/takasek/tab_on_textarea",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
